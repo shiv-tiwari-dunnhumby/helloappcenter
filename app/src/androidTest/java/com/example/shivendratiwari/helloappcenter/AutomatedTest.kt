@@ -2,11 +2,16 @@ package com.example.shivendratiwari.helloappcenter
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4
-
+import com.microsoft.appcenter.espresso.Factory
+import com.microsoft.appcenter.espresso.ReportHelper
 import org.junit.Test
 import org.junit.runner.RunWith
 
 import org.junit.Assert.*
+import org.junit.Before
+import org.junit.Rule
+import android.R.attr.label
+import org.junit.After
 
 /**
  * Instrumented test, which will execute on an Android device.
