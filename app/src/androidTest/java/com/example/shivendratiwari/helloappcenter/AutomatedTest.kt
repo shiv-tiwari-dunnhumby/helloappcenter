@@ -22,14 +22,12 @@ import org.junit.After
 class AutomatedTest {
     @Test
     fun useAppContext() {
-        // Context of the app under test.
         val appContext = InstrumentationRegistry.getTargetContext()
         assertEquals("com.example.shivendratiwari.helloappcenter", appContext.packageName)
     }
 
     @Test
     fun useAppContext_mistake() {
-        // Context of the app under test.
         val appContext = InstrumentationRegistry.getTargetContext()
         assertEquals("com.example.shivendratiwari.helloappcenter_new", appContext.packageName)
     }
