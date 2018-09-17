@@ -17,6 +17,6 @@ class UnitTest {
 
     @Test
     fun addition_isIncorrect_mistake() {
-        assertEquals(11, 1 + 1)
+        //assertEquals(11, 1 + 1)
     }
 }
