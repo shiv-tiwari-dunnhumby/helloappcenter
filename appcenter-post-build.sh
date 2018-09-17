@@ -1,0 +1,1 @@
+appcenter test run espresso --app "shivendratiwari81-lmt0/HelloAppCenterAndroid" --devices 249b175a --app-path app/build/outputs/apk/debug/app-debug.apk  --test-series "master" --locale "en_US" --build-dir app/build/outputs/apk/androidTest/debug/
