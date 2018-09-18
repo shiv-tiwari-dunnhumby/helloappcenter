@@ -29,6 +29,7 @@ class AutomatedTest {
     @Test
     fun useAppContext_mistake() {
         val appContext = InstrumentationRegistry.getTargetContext()
+        //Intentionally setting wrong expectation so that the failure report can be tested
         assertEquals("com.example.shivendratiwari.helloappcenter_new", appContext.packageName)
     }
 }
